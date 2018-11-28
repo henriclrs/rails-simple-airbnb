@@ -1,0 +1,79 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.map {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-right: -15px;
+//     margin-left: -15px;
+// }
+
+.flat-show-card {
+    background: #F8F9FA;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+
+.navbar-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F8F9FA;
+  padding: .5rem 1rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+  }
+}
+.flat-card-image {
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+}
+.flat-card {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.flat-card-content {
+  padding: 24px;
+  background-color: #F8F9FA;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.flat-card-action {
+  padding: 24px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  background-color: white;
+}
+
+#more-info{
+  color: #08aaf9;
+}
+
+#edit{
+  color: #f9b208;
+}
+#remove{
+  color: #f94508;
+}

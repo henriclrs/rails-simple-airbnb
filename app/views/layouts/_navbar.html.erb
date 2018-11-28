@@ -1,0 +1,16 @@
+
+<div class="navbar-container">
+  <div class="flex-item-logo">
+    <%= link_to "Simple Airbnb", flats_path %>
+  </div>
+
+  <div class="flex-item">
+    <form class="form-inline">
+      <input type="text" class="form-control" placeholder="Search">
+      <%= link_to "Search", new_flat_path, class: "btn btn-default navbar-btn" %>
+      <%= link_to "Add flat", new_flat_path, class: "btn btn-default navbar-btn" %>
+    </form>
+  </div>
+</div>
+
+
